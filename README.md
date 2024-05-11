@@ -1,1 +1,1 @@
-# Learning about React
+# Learn React
