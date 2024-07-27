@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 30px;
+    border-bottom: 1px solid #DDDDDD;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background: #FFFFFF;
+}
+.logo {
+    width: 100px;
+}
+.nav {
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+}
+li {
+    list-style: none;
+}
+.link {
+    margin-left: 20px;
+}
+.card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card-container {
+    padding: 8px;
+    height: 100%;
+    border: 1px solid transparent;
+    overflow: hidden;
+}
+.shimmer-card {
+    width: 250px;
+    height: 100px;
+    padding: 0px;
+}
+.resCardMenu-container:hover {
+    cursor: pointer;
+    background-color: #caf0f8;
+}
+.resCardMenu-container {
+    background-color: rgb(240, 240, 240);
+}
+.restaurant-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding-left: 16px;
+    justify-content: space-evenly;
+}
+h4 {
+    margin-top: 8px;
+}
+.filter-btn {
+    border: none;
+    padding: 7px 10px;
+    margin: 16px;
+    cursor: pointer;
+}
+
+.shimmer-container {
+    width: "250px";
+    padding: "0px 0px";
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 16px;
+    margin-top: 60px;
+}
+.shimmer-card {
+    padding: 8px;
+    height: 100%;
+    border: 1px solid transparent;
+}
+.shimmerCard-img {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(193, 193, 193);
+}
+.shimmerCard-body {
+    height: 100px;
+}
+
+.btn-login {
+    cursor: pointer;
+    background: rgb(240, 240, 240);
+    padding: 7px 24px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-login:hover {
+    background-color: #DDDDDD;
+}
+
+.filter-container {
+    display: flex;
+    padding-inline: 30px;
+    align-items: center;
+}
+
+.input-search {
+    outline: none;
+    border: 1px solid #dddddd;
+    height: 30px;
+    padding-inline: 8px;
+}
+
+.resmenu-card {
+    width: 45%;
+    margin-inline: auto;
+    background: rgb(240, 240, 240);
+    padding: 36px 48px;
+    margin-top: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
